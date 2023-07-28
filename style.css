@@ -95,7 +95,7 @@ span {
 @media (min-width:375px){
       .parent_container{
               display:flex;
-              height:500px;
+              height:100vh;
               flex-direction:row-reverse;
               padding:100px 50px;
       }
