@@ -100,7 +100,7 @@ span {
               display:flex;
               height:100vh;
               flex-direction:row-reverse;
-              padding:100px 50px;
+              padding:30% 30%;
       }
       .sub_parent_container_one{
               height:100%;
