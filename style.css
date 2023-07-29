@@ -15,6 +15,9 @@ body {
       padding:100px 20px;
       font-family: 'Inter', sans-serif;
 }
+.subs_holder{
+      display: none;
+}
 .sub_parent_container_one{
       height:30%;
       width:100%;
@@ -96,11 +99,25 @@ span {
       text-align:center;
 }
 @media (min-width:375px){
+      body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+      }
       .parent_container{
+            border: 1px solid white;
               display:flex;
-              height:100vh;
+              justify-content: center;
+              align-items: center;
+              height: min(80%, 500px);
+              width: min(90%, 1000px);
+              /* height: min(); */
               flex-direction:row-reverse;
-              padding:50% 10%;
+              padding: 0;
+      }
+      .parent_container > *{
+            padding: 3em;
       }
       .sub_parent_container_one{
               height:100%;
