@@ -103,14 +103,13 @@ span {
             height: 100vh;
       }
       .parent_container{
-            border: 1px solid white;
-              display:flex;
-              justify-content: center;
-              align-items: center;
-              height: min(80%, 500px);
-              width: min(90%, 1000px);
-              flex-direction:row-reverse;
-              padding: 0;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: min(80%, 500px);
+            width: min(90%, 1000px);
+            flex-direction:row-reverse;
+            padding: 0;
       }
       .parent_container > *{
             padding: 3em;
