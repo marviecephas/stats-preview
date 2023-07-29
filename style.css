@@ -114,18 +114,16 @@ span {
       }
       .parent_container > *{
             padding: 3em;
+            height: 100%;
+            width: 100%;
       }
       .sub_parent_container_one{
-              height:100%;
-              width:100%;
               border-radius:0 10px 10px 0;
       }
       .overlay {
             border-radius:0 10px 10px 0;
       }
       .sub_parent_container_two{
-              height:100%;
-              width:100%;
               border-radius:10px 0 0 10px;
       }
       .child_container_two{
