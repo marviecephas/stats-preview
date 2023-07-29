@@ -15,9 +15,6 @@ body {
       padding:100px 20px;
       font-family: 'Inter', sans-serif;
 }
-.subs_holder{
-      display: none;
-}
 .sub_parent_container_one{
       height:30%;
       width:100%;
@@ -112,7 +109,6 @@ span {
               align-items: center;
               height: min(80%, 500px);
               width: min(90%, 1000px);
-              /* height: min(); */
               flex-direction:row-reverse;
               padding: 0;
       }
